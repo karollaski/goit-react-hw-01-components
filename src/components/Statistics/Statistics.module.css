@@ -1,0 +1,42 @@
+.statistics {
+  margin-block: 20px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.statList {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  padding: 5px;
+}
+
+.item:nth-of-type(even) {
+  width: 20%;
+  background-color: #0cdbe2;
+}
+
+.item:nth-of-type(odd) {
+  width: 20%;
+  background-color: #e9d94dfd;
+}
+
+.label {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.percentage {
+  font-size: 20px;
+  color: #353333;
+}

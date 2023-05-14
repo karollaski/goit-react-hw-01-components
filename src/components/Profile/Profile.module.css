@@ -1,0 +1,42 @@
+.profile {
+  margin-top: 20px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #4d48487a;
+  border-radius: 50px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  line-height: 0px;
+}
+
+.stats {
+  display: flex;
+  gap: 15px;
+}
+
+.statsItem {
+  display: flex;
+  gap: 5px;
+}
+
+.label {
+  font-weight: 500;
+}
+
+.name {
+  font-weight: 900;
+}
+
+.tag {
+  font-size: 20px;
+  color: #5a5858;
+}

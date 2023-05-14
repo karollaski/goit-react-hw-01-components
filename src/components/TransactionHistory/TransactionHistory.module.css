@@ -1,0 +1,17 @@
+.transactionHistory {
+  width: 500px;
+  margin-block: 20px;
+}
+
+.head {
+  font-size: 20px;
+  height: 30px;
+  background-color: #0cdbe2;
+}
+
+.item {
+  text-align: center;
+}
+.item:nth-of-type(even) {
+  background-color: #4d48487a;
+}
